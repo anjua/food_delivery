@@ -36,23 +36,21 @@ class _MainFoodPageState extends State<MainFoodPage> {
                       )
                     ],
                   ),
-                  Column(
-                    children: [
-                      Container(
-                        height: 45,
-                        width: 45,
-                        child: Icon(Icons.search, color: Colors.white),
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(15),
-                            color: AppColors.mainColor),
-                      ),
-                    ],
-                  )
+                  Center(
+                    child: Container(
+                      height: 45,
+                      width: 45,
+                      child: Icon(Icons.search, color: Colors.white),
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(15),
+                          color: AppColors.mainColor),
+                    ),
+                  ),
                 ],
               ),
             ),
           ),
-          FoodPageBody()
+          FoodPageBody(),
         ],
       ),
     );

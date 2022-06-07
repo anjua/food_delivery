@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class BigText extends StatelessWidget {
-  final Color? color;
+  Color? color;
   final String text;
   double size;
   TextOverflow textOverflow;
